@@ -29,7 +29,7 @@ exports.classAdd = (req,res) => {
     classSave.save().then(
         () => {
             res.status(201).json({
-                message: 'Class created successfully!'
+                message: 'Class created successfullyssssssssssssss!'
             });
         }
     ).catch(
