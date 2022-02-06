@@ -53,6 +53,6 @@ app.use('/api',serviceRoutes);
 //     console.log('server is running');
 // });
 
-app.listen('http://pkstore.herokuapp.com/', () => {
+app.listen(process.env.PORT || 2000, () => {
     console.log('server is running');
 });
